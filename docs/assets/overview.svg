@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="340" viewBox="0 0 1120 340" role="img" aria-labelledby="title desc">
+  <title id="title">DynT2I-Eval framework</title>
+  <desc id="desc">Structured semantic pools feed dynamic prompt generation. Selected models generate images for alignment, perceptual quality, or aesthetic evaluation. Pairwise outcomes update a Bayesian leaderboard, which informs the next model pair.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="1120" height="340" rx="18" fill="#f8fafc" stroke="none"/>
+  <g font-family="Arial, Helvetica, sans-serif" stroke="none">
+    <text x="36" y="42" font-size="22" font-weight="700" fill="#172554">DynT2I-Eval</text>
+    <text x="36" y="67" font-size="14" fill="#64748b">Fresh prompts · Prompt-conditioned comparisons · Continual ranking</text>
+    <g stroke-width="1.5">
+      <rect x="32" y="98" width="228" height="152" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <rect x="308" y="98" width="228" height="152" rx="12" fill="#f0fdfa" stroke="#99f6e4"/>
+      <rect x="584" y="98" width="228" height="152" rx="12" fill="#f5f3ff" stroke="#ddd6fe"/>
+      <rect x="860" y="98" width="228" height="152" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+    </g>
+    <g font-size="17" font-weight="700" fill="#1e293b">
+      <text x="50" y="131">Semantic space</text>
+      <text x="326" y="131">Dynamic prompts</text>
+      <text x="602" y="131">Pairwise evaluation</text>
+      <text x="878" y="131">Online leaderboard</text>
+    </g>
+    <g font-size="14" fill="#475569">
+      <text x="50" y="163">Subjects and logic</text><text x="50" y="190">Environment, light, camera</text><text x="50" y="217">DOCCI-derived visual pools</text>
+      <text x="326" y="163">Task-specific sampling</text><text x="326" y="190">Difficulty-aware constraints</text><text x="326" y="217">LLM rewriting + checklists</text>
+      <text x="602" y="163">Generate with two models</text><text x="602" y="190">Alignment / quality / aesthetics</text><text x="602" y="217">A wins · B wins · Tie</text>
+      <text x="878" y="163">Micro-batch aggregation</text><text x="878" y="190">Weighted Bayesian updates</text><text x="878" y="217">Uncertainty-penalized score</text>
+    </g>
+    <g fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M264 174H300"/><path d="M540 174H576"/><path d="M816 174H852"/>
+      <path d="M974 254V294H698V258"/>
+    </g>
+    <rect x="733" y="280" width="212" height="28" rx="14" fill="#f8fafc"/>
+    <text x="839" y="299" text-anchor="middle" font-size="13" fill="#475569">Scheduler selects the next pair</text>
+  </g>
+</svg>

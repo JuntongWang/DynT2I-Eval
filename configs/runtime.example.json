@@ -1,0 +1,54 @@
+{
+  "prompt_builder_model_path": "/path/to/Qwen3.5-9B",
+  "model_paths": {
+    "CogView4-6B": "/path/to/CogView4-6B",
+    "FLUX.1-dev": "/path/to/FLUX.1-dev",
+    "FLUX.1-Krea-dev": "/path/to/FLUX.1-Krea-dev",
+    "FLUX.2-klein-4B": "/path/to/FLUX.2-klein-4B",
+    "FLUX.2-klein-9B": "/path/to/FLUX.2-klein-9B",
+    "InternVL-U": "/path/to/InternVL-U",
+    "LongCat-Image": "/path/to/LongCat-Image",
+    "SD-3-Medium": "/path/to/stable-diffusion-3-medium",
+    "SD-3.5-Large": "/path/to/stable-diffusion-3.5-large",
+    "SD-3.5-Medium": "/path/to/stable-diffusion-3.5-medium",
+    "SD3.5-Large-Turbo": "/path/to/stable-diffusion-3.5-large-turbo",
+    "SDXL-Base-1.0": "/path/to/stable-diffusion-xl-base-1.0",
+    "Z-Image-Turbo": "/path/to/Z-Image-Turbo",
+    "Qwen3.5-9B": "/path/to/Qwen3.5-9B",
+    "VisualQuality-R1-7B": "/path/to/VisualQuality-R1-7B",
+    "Q-Insight": "/path/to/Q-Insight",
+    "ArtiMuse": "/path/to/ArtiMuse"
+  },
+  "model_envs": {
+    "CogView4-6B": "cogview",
+    "FLUX.1-dev": "flux",
+    "FLUX.1-Krea-dev": "flux",
+    "FLUX.2-klein-4B": "flux2-klein",
+    "FLUX.2-klein-9B": "flux2-klein",
+    "InternVL-U": "internvl-u",
+    "LongCat-Image": "longcat-image",
+    "SD-3-Medium": "sd3.5",
+    "SD-3.5-Large": "sd3.5",
+    "SD-3.5-Medium": "sd3.5",
+    "SD3.5-Large-Turbo": "sd3.5",
+    "SDXL-Base-1.0": "sd3.5",
+    "Z-Image-Turbo": "z-image"
+  },
+  "external_code": {
+    "internvl_u_root": "/path/to/InternVL-U/source",
+    "visualquality_r1_root": "/path/to/VisualQuality-R1/source",
+    "q_insight_root": "/path/to/Q-Insight/source",
+    "artimuse_root": "/path/to/ArtiMuse/source"
+  },
+  "devices": {
+    "alignment_judge": "auto",
+    "perceptual_quality": "cuda:0",
+    "q_insight": "cuda:0",
+    "aesthetic_quality": "cuda:0"
+  },
+  "api_urls": {
+    "text_alignment": "http://127.0.0.1:8000/evaluate",
+    "perceptual_quality": "http://127.0.0.1:8001/evaluate_iqa",
+    "aesthetic_quality": "http://127.0.0.1:8002/evaluate_aesthetic"
+  }
+}

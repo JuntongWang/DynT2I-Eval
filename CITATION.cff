@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use DynT2I-Eval, please cite the paper listed under preferred-citation."
+type: software
+title: DynT2I-Eval
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Juntong
+    affiliation: "Institute of Image Communication and Network Engineering, Shanghai Jiao Tong University, Shanghai, China"
+  - family-names: Wang
+    given-names: Jiarui
+    affiliation: "Institute of Image Communication and Network Engineering, Shanghai Jiao Tong University, Shanghai, China"
+  - family-names: Duan
+    given-names: Huiyu
+    affiliation: "Institute of Image Communication and Network Engineering, Shanghai Jiao Tong University, Shanghai, China"
+  - family-names: Li
+    given-names: Lewei
+    affiliation: "Institute of Image Communication and Network Engineering, Shanghai Jiao Tong University, Shanghai, China"
+  - family-names: Zhai
+    given-names: Guangtao
+    affiliation: "Institute of Image Communication and Network Engineering, Shanghai Jiao Tong University, Shanghai, China"
+  - family-names: Min
+    given-names: Xiongkuo
+    affiliation: "Institute of Image Communication and Network Engineering, Shanghai Jiao Tong University, Shanghai, China"
+preferred-citation:
+  type: article
+  title: "DynT2I-Eval: A Dynamic Evaluation Framework for Text-to-Image Models"
+  authors:
+    - family-names: Wang
+      given-names: Juntong
+    - family-names: Wang
+      given-names: Jiarui
+    - family-names: Duan
+      given-names: Huiyu
+    - family-names: Li
+      given-names: Lewei
+    - family-names: Zhai
+      given-names: Guangtao
+    - family-names: Min
+      given-names: Xiongkuo
+  journal: arXiv
+  year: 2026
+  month: 5
+  date-published: 2026-05-07
+  doi: 10.48550/arXiv.2605.06170
+  url: https://arxiv.org/abs/2605.06170
