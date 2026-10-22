@@ -1,0 +1,13 @@
+-r requirements-core.txt
+accelerate
+diffusers
+fastapi
+pydantic
+qwen-vl-utils
+safetensors
+sentencepiece
+protobuf
+torch
+torchvision
+transformers
+uvicorn

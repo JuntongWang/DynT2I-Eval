@@ -136,7 +136,10 @@ If you use DynT2I-Eval, please cite the paper. The complete reference is also av
   author        = {Juntong Wang and Jiarui Wang and Huiyu Duan and Lewei Li and Guangtao Zhai and Xiongkuo Min},
   year          = {2026},
   eprint        = {2605.06170},
-  archivePrefix = {arXiv}
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2605.06170},
+  url           = {https://arxiv.org/abs/2605.06170}
 }
 ```
 
